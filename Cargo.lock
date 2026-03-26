@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "timings"
+name = "timings-rs"
 version = "0.1.0"
