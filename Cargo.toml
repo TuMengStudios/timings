@@ -1,0 +1,8 @@
+[package]
+name = "timings"
+version = "0.1.0"
+edition = "2024"
+keywords = ["time", "timings", "cli", "benchmark", "performance"]
+description = "Measure the wall-clock execution time of a command, inspired by Linux/macOS time."
+
+[dependencies]
