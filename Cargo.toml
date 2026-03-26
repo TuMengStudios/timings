@@ -4,5 +4,8 @@ version = "0.1.0"
 edition = "2024"
 keywords = ["time", "timings", "cli", "benchmark", "performance"]
 description = "Measure the wall-clock execution time of a command, inspired by Linux/macOS time."
+license = "MIT"
+authors = ["xx 2356450144@qq.com"]
+repository = "https://github.com/TuMengStudios/timings.git"
 
 [dependencies]
