@@ -3,10 +3,6 @@ use std::io;
 use std::process::{Command, Stdio};
 use std::time::{Duration, Instant};
 
-
-
-
-
 fn main() {
     let mut args = env::args_os();
     let _program = args.next();

@@ -1,0 +1,31 @@
+repos:
+  - repo: local
+    hooks:
+      - id: cargo-fmt-check
+        name: cargo fmt --check
+        entry: cargo fmt --all -- --check
+        language: system
+        pass_filenames: false
+        always_run: true
+
+      - id: cargo-check
+        name: cargo check
+        entry: cargo check --all-targets
+        language: system
+        pass_filenames: false
+        always_run: true
+
+      - id: cargo-test
+        name: cargo test
+        entry: cargo test --all-targets
+        language: system
+        pass_filenames: false
+        always_run: true
+
+      - id: cargo-build
+        name: cargo build
+        entry: cargo build --all-targets
+        language: system
+        pass_filenames: false
+        always_run: true
+
