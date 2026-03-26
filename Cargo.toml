@@ -1,5 +1,5 @@
 [package]
-name = "timings"
+name = "timings-rs"
 version = "0.1.0"
 edition = "2024"
 keywords = ["time", "timings", "cli", "benchmark", "performance"]
@@ -7,5 +7,10 @@ description = "Measure the wall-clock execution time of a command, inspired by L
 license = "MIT"
 authors = ["xx 2356450144@qq.com"]
 repository = "https://github.com/TuMengStudios/timings.git"
+
+[[bin]]
+# Keep the published crate name (`timings-rs`) different from the installed executable name (`timings`).
+name = "timings"
+path = "src/main.rs"
 
 [dependencies]
