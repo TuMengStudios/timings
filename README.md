@@ -7,7 +7,7 @@ It prints the elapsed wall-clock time (`real`) in a human-readable form and forw
 ## Install / Build
 
 ```bash
-cargo build --release
+cargo install timings
 ```
 
 ## Usage
